@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27318E"
+    tools:context=".ganjil_genap">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="Latihan 5"
+            android:paddingTop="20dp"
+            android:paddingLeft="27dp"
+            android:textSize="30dp"
+            android:textColor="@color/white"
+            android:background="#4E49B6"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90pt"
+        android:padding="70dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/tebak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="9dp"
+            android:background="#453C95"
+            android:hint="Masukkan angka"
+            android:textColorHint="#2F0000"
+            android:textSize="20dp"
+            android:textColor="@color/black"/>
+
+
+        <Button
+            android:id="@+id/btninput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50pt"
+            android:layout_marginBottom="10dp"
+            android:text="Input" />
+
+        <TextView
+            android:id="@+id/txtgenap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#6C708C"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10pt"
+            android:paddingTop="15dp"
+            android:paddingBottom="14dp"
+            android:text="Genap or Ganjil"
+            android:textColor="@color/white"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
